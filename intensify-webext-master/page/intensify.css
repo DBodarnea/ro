@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    height: 100vh;
+}
+h1 {
+    padding: 50px;
+    text-align: center;
+}
+
+#optionsPage {
+    height:100%;
+    width:100%;
+    float: left;
+    background-color: #2e2e2e;
+}
+
+#center {
+    text-align: center;
+    padding: 40px;
+}
+
+#intensify_button {
+    margin-bottom: 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 47px;
+    padding: 20px;
+    background: #3498db;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    transition: all 0.3s ease 0s;
+}
+
+#intensify_button:active, .buttonRunning {
+    font-style:oblique;
+}
+
+#downloadHelper {
+    color: #aaaaaa;
+}

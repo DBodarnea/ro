@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="./options.css">
+</head>
+<body>
+    <h2 data-i18n="optionsDefaultValues"></h2>
+    <div>
+        <h4 data-i18n="optionsIntensity"></h4>
+        <label for="magnitude_range" data-i18n="optionsMagnitudeDescription"></label><br>
+        <input type="range" min="1" max="20" id="magnitude_range"><span id="magnitude_slider_value"></span>
+    </div>
+    <div>
+        <h4 data-i18n="optionsTextToDisplay"></h4>
+        <input type="text" id="text" data-i18n="optionsTextPlaceholder|placeholder" placeholder="">
+    </div>
+    <div>
+        <h4 data-i18n="optionsFontSize"></h4>
+        <label for="font_range" data-i18n="optionsFontSizeDescription"></label><br>
+        <input type="range" min="0" max="100" id="font_range"><span id="font_slider_value"></span>
+    </div>
+    <div>
+        <h4 data-i18n="optionsTextEffect"></h4>
+        <div id="textRadio">
+            <input type="radio" id="radioNone" name="textRadio" checked>
+            <label for="radioNone" data-i18n="optionsRadioNone"></label><br>
+            <input type="radio" id="radioAlong" name="textRadio">
+            <label for="radioAlong" data-i18n="optionsRadioAlong"></label><br>
+            <input type="radio" id="radioShake" name="textRadio">
+            <label for="radioShake" data-i18n="optionsRadioShake"></label><br>
+            <input type="radio" id="radioPulse" name="textRadio">
+            <label for="radioPulse" data-i18n="optionsRadioPulse"></label><br>
+            <input type="radio" id="radioMove" name="textRadio">
+            <label for="radioMove" data-i18n="optionsRadioMove"></label><br>
+        </div>
+    </div>
+    <div>
+        <h4 data-i18n="optionsScaleDown"></h4>
+        <input type="checkbox" id="scaleCheckbox"><label for="scaleCheckbox" data-i18n="optionsScaleDownDescription"></label><br>
+        <input type="number" id="max_image_size" min="60" value="800">
+    </div>
+    <div>
+        <button id="save-button" class="browser-style" data-i18n="optionsSaveButton"></button>
+    </div>
+    <script src="./options.js"></script>
+</body>
+</html>

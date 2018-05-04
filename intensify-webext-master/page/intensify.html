@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>INTENSIFY!</title>
+    <link rel="stylesheet" href="./intensify.css">
+    <script type="text/javascript" src="./intensify.js"></script>
+    <script type="text/javascript" src="./jsgif/b64.js"></script>
+    <script type="text/javascript" src="./jsgif/GIFEncoder.js"></script>
+    <script type="text/javascript" src="./jsgif/LZWEncoder.js"></script>
+    <script type="text/javascript" src="./jsgif/NeuQuant.js"></script>
+</head>
+
+<body>
+    <div id="menu">
+        <object type="text/html" id="optionsPage" data="../options/options.html"></object>
+    </div>
+    <div id="center">
+        <button id="intensify_button" class="buttonRunning" type="button" data-i18n="intensifyButton"></button>
+        <canvas id="bitmap"></canvas>
+        <div id="intensifyImage"></div>
+        <div id="downloadHelper" data-i18n="downloadHelper"></div>
+    </div>
+</body>
+</html>

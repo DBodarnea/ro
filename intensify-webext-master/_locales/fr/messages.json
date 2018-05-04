@@ -1,0 +1,68 @@
+{
+    "extensionName": {
+        "message": "Intensify!"
+    },
+    "extensionDescription": {
+        "message": "Intensifiez les images d'un simple clic droit."
+    },
+    "menuItemIntensify": {
+        "message": "Intensifier !"
+    },
+    "defaultText": {
+        "message": "[INTENSIFIE]"
+    },
+    "optionsDefaultValues": {
+        "message": "Valeurs par défaut"
+    },
+    "optionsIntensity": {
+        "message": "Intensité"
+    },
+    "optionsMagnitudeDescription": {
+        "message": "Intensité de la vibration (1 : subtil, 20 : probablement trop)"
+    },
+    "optionsTextToDisplay": {
+        "message": "Texte à afficher sur l'image"
+    },
+    "optionsFontSize": {
+        "message": "Taille de la police"
+    },
+    "optionsFontSizeDescription": {
+        "message": "Taille du texte (en pixels)"
+    },
+    "optionsTextEffect": {
+        "message": "Effet à appliquer au texte"
+    },
+    "optionsRadioNone": {
+        "message": "Aucun"
+    },
+    "optionsRadioAlong": {
+        "message": "Faire vibrer le texte avec l'image"
+    },
+    "optionsRadioShake": {
+        "message": "Faire vibrer le texte indépendamment de l'image"
+    },
+    "optionsRadioPulse": {
+        "message": "Faire palpiter le texte sur l'image"
+    },
+    "optionsRadioMove": {
+        "message": "Faire palpiter et vibrer le texte sur l'image"
+    },
+    "optionsScaleDown": {
+        "message": "Retailler l'image"
+    },
+    "optionsScaleDownDescription": {
+        "message": "Utilise une version plus petite de l'image (pratique pour les grandes images)"
+    },
+    "optionsSaveButton": {
+        "message": "Sauvegarder les préférences"
+    },
+    "intensifyButton": {
+        "message": "INTENSIFIE !"
+    },
+    "outputFileName": {
+        "message": "intense"
+    },
+    "downloadHelper": {
+        "message": "(cliquer sur l'image pour la télécharger)"
+    }
+}

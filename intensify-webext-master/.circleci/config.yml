@@ -1,0 +1,24 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:7.10
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: sudo npm install -g web-ext
+      - run: sudo apt-get update; sudo apt-get install jq
+      # run tests!
+      - run: web-ext lint
+      # build firefox extension
+      - run: web-ext build
+      # remove "browser_style" and "applications" from the manifest to build the chrome one
+      - run: jq 'del(.options_ui.browser_style) | del(.applications)' manifest.json > manifest.json.tmp && mv manifest.json.tmp manifest.json
+      # build the chrome extension (ignoring web-ext-artifacts/ and the newly created chrome-artifacts/) - CURRENTLY BROKEN - zip doesn't install
+      - run: mkdir chrome-artifacts && zip -r chrome-artifacts/intensify-gc.zip . -x *.git* ./web-ext-artifacts/\* *.circleci* ./chrome-artifacts/\*
+      - store_artifacts:
+          path: web-ext-artifacts
+          destination: firefox-build
+      - store_artifacts:
+          path: chrome-artifacts
+          destination: chrome-build

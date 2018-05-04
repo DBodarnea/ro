@@ -1,0 +1,94 @@
+{
+    "extensionName": {
+        "message": "Intensify!",
+        "description": "Name of the extension."
+    },
+    "extensionDescription": {
+        "message": "Intensify images with a simple right-click.",
+        "description": "Description of the add-on."
+    },
+    "menuItemIntensify": {
+        "message": "Intensify!",
+        "description": "Title of context menu item that triggers the intensification."
+    },
+    "defaultText": {
+        "message": "[INTENSIFY]",
+        "description": "Default text for the text input."
+    },
+    "optionsDefaultValues": {
+        "message": "Default values",
+        "description": "Title of the options page."
+    },
+    "optionsIntensity": {
+        "message": "Intensity",
+        "description": "Subtitle for the intensity range."
+    },
+    "optionsMagnitudeDescription": {
+        "message": "Shaking intensity (1: subtle, 20: probably too much)",
+        "description": "Description of the magnitude range."
+    },
+    "optionsTextToDisplay": {
+        "message": "Text to display on the image",
+        "description": "Subtitle for the text input."
+    },
+    "optionsTextPlaceholder": {
+        "message": "No text",
+        "description": "Placeholder text for the text input."
+    },
+    "optionsFontSize": {
+        "message": "Font size",
+        "description": "Subtitle for the font size input."
+    },
+    "optionsFontSizeDescription": {
+        "message": "Size of the text (in pixels)",
+        "description": "Description of the font size input."
+    },
+    "optionsTextEffect": {
+        "message": "Text effect",
+        "description": "Subtitle for the text effect radio inputs."
+    },
+    "optionsRadioNone": {
+        "message": "Don't move the text",
+        "description": "Label for the None radio."
+    },
+    "optionsRadioAlong": {
+        "message": "Shake the text along with the image",
+        "description": "Label for the Along radio."
+    },
+    "optionsRadioShake": {
+        "message": "Shake the text independently from the image",
+        "description": "Label for the Shake radio."
+    },
+    "optionsRadioPulse": {
+        "message": "Pulse the text on the image",
+        "description": "Label for the Pulse radio."
+    },
+    "optionsRadioMove": {
+        "message": "Pulse and move the text with the image",
+        "description": "Label for the Move radio."
+    },
+    "optionsScaleDown": {
+        "message": "Scale image down",
+        "description": "Subtitle for the scale down checkbox."
+    },
+    "optionsScaleDownDescription": {
+        "message": "Scale the image down (good for larger images)",
+        "description": "Description of the scale down input."
+    },
+    "optionsSaveButton": {
+        "message": "Save preferences",
+        "description": "Save button text."
+    },
+    "intensifyButton": {
+        "message": "INTENSIFY!",
+        "description": "Button to trigger the intensification."
+    },
+    "outputFileName": {
+        "message": "intense",
+        "description": "The output filename (without the '.gif')"
+    },
+    "downloadHelper": {
+        "message": "(click on the image to download it)",
+        "description": "The helper text below the intensified gif"
+    }
+}

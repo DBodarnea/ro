@@ -1,0 +1,20 @@
+h4 {
+    margin: 1em auto 0.3em auto;
+}
+h2 {
+    margin: 1em auto 0.3em auto;
+}
+
+input[type="range"] {
+    margin-top: 2px;
+}
+
+#max_image_size {
+    margin-left: 40px;
+    margin-top: 3px;
+}
+
+button {
+    height: 30px;
+    margin: 40px 0 15px 15px;
+}

@@ -1,0 +1,9 @@
+body {
+    font-size: 1.385em;
+    font-weight: lighter;
+    width: 500px;
+}
+
+#save-button {
+    font-size: 1em;
+}
